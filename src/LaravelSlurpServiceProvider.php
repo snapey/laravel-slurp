@@ -2,9 +2,9 @@
 
 namespace Snapey\LaravelSlurp;
 
+use Snapey\LaravelSlurp\Commands\LaravelSlurpCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Snapey\LaravelSlurp\Commands\LaravelSlurpCommand;
 
 class LaravelSlurpServiceProvider extends PackageServiceProvider
 {
