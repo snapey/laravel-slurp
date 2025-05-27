@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Snapey\LaravelSlurp\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelSlurpCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-slurp';
 
     public $description = 'My command';
 

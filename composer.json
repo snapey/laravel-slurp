@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "snapey/laravel-slurp",
+    "description": "Simple Laravel User Roles and Permissions",
     "keywords": [
-        ":vendor_name",
+        "snapey",
         "laravel",
-        ":package_slug"
+        "laravel-slurp"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/snapey/laravel-slurp",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Mark Snape",
+            "email": "mark@novate.co.uk",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Snapey\\LaravelSlurp\\": "src/",
+            "Snapey\\LaravelSlurp\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Snapey\\LaravelSlurp\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Snapey\\LaravelSlurp\\LaravelSlurpServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelSlurp": "Snapey\\LaravelSlurp\\Facades\\LaravelSlurp"
             }
         }
     },
